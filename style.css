@@ -1,0 +1,19 @@
+*{
+    align-items: center;
+}
+
+img{
+    width: 100px;
+}
+
+.about{
+    width: 900px;
+}
+
+p{
+    font-size: 36px;
+}
+
+h2{
+    color: blue;
+}

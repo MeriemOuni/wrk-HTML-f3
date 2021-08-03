@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Workshop HTML</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <img src="assets/htmlLogo.png" alt="logo" />
+                <ul>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </ul> 
+                <ol>
+                    <li>Name: Doe</li>
+                    <li>Last Name: John</li>
+                    <li>Email: JohnDoe@gmail.com</li>
+                    <li>Phone Number:20202020</li>
+                    <li>
+                        Academic backgound:
+                        <ol>
+                            <li>
+                            GoMyCode certificat
+                            </li>
+                            <li>
+                            Computer science bachelor degree
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <iframe
+                    width="900"
+                    height="500"
+                    src="https://www.youtube.com/embed/z2jgLckP8O8"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- About part-->
+            <section id="about">
+                <div>
+                    <h2>FullStack Javascript Developer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab totam
+                        in culpa facilis voluptatum. Libero neque quas ullam laudantium
+                        magnam? Facere alias ipsam dicta doloremque accusantium illo
+                        voluptates placeat amet!
+                </div>
+                <img
+                    src="data:image/png;base64,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"
+                    alt="contact"
+                    />
+            </section>
+                <!-- Projects Part--> 
+            <section id="projects">
+                <h2>Projects Part</h2>
+                <div>
+                    <div>
+                        <img
+                            src="data:image/png;base64,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"
+                            alt="html"
+                            />
+                            <h3>HTML</h3>
+                            <p>
+                            HTML (HyperText Markup Language) is the most basic building block
+                            of the Web. It defines the meaning and structure of web content.
+                            </p>
+                    </div>
+                    <div>
+                        <video width="320" height="240" controls>
+                            <source src="./assets/html.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <h3 style="color: blue;">CSS</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ea
+                            facere nesciunt enim provident consequatur, saepe repellat vel
+                            itaque accusamus illum recusandae, error illo fugit neque
+                            necessitatibus rem. Adipisci, hic.
+                            </p>
+                    </div>
+                    <div>
+                        <audio src="./assets/adele-rolling-in-the-deep-official-music-video.mp3" controls>
+                            Your browser does not support the video tag.
+                        </audio>
+                    </div>
+                </div>
+
+            </section>
+                <!-- Contact Part -->
+            
+                <section id="contact">
+                    <div>
+                        <h2>Contact Part</h2>
+                        <form>
+                            <label for="FullName">Full Name: </label><br>
+                            <input type="text" name="FullName" /><br>
+                            <label for="email">Email: </label><br>
+                            <input type="email" name="email" /><br>
+                            <label for="PhoneNumber">Phone Number: </label><br>
+                            <input type="Number" name="PhoneNumber" /><br>
+                            <label for="Comment">Comment: </label><br>
+                            <input type="textarea" name="Comment" /><br>
+                        </form>
+                        <button>Submit</button>
+                    </div>
+                    
+                </section>
+            
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
